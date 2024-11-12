@@ -5,7 +5,6 @@ const path = require('path');
 var router = express.Router();
 
 const filePath = 'public/images/urls.txt';
-console.log(filePath);
 let imgs = [];
 
 async function readUrls() {
